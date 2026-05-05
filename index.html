@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <img src="song1.jpg" width="290px" height="250px"<hr>
+        <h2 style="color: red;">MIXTAPE WEREWOLF</h2>
+        <h3 style="color: rgb(47, 47, 177);">Y FLOW 54</h3>
+        <div class="current-song" style="color: cornflowerblue;">اختر أغنية</div>
+        
+        <audio id="audio"></audio>
+
+        <div class="controls">
+            <button id="prev">⏮️</button>
+            <button id="play">▶️</button>
+            <button id="next">⏭️</button>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+
+        <input type="range" id="volume" min="0" max="1" step="0.01">
+
+        <ul class="playlist">
+            <li data-src="intro_mixtape_werewolf - Copie copy.mp3">INTRO</li>
+            <li data-src="DLAMI - Copie.mp3">DLAMI</li>
+            <li data-src="GAME_OVER - Copie.mp3">GAME OVER</li>
+            <li data-src="NUMBER_ONE_ll - Copie.mp3">NUMBER ONE</li>
+            <li data-src="THE-PAIN.mp3">THE PAIN FT LBRANI</li>
+            <li data-src="LEGENDS.mp3">LEGENDS FT KURAYAMI</li>
+            <li data-src="the_king.mp3">THE KING</li>
+            <li data-src="CHABAB.mp4">CHABAB FT SACRI</li>
+            <li data-src="OUTRO.mp3">OUTRO</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
